@@ -1,83 +1,83 @@
 let data = [
     {
         name:'The Shawshank Redemption',
-        image:'https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg'
+        image:'../images/movies_images/The Shawshank Redemption.jpg'
     },
     {
-        name:'THE BOY WHO HARNESSED THE WIND',
-        image:'https://resizing.flixster.com/z27wVhW1_zNanbOJwQGXx33BFKA=/fit-in/200x296.2962962962963/v1.bTsxMjk3NDkwOTtwOzE4MTA1OzEyMDA7ODU4OzEyNzI',
+        name:'The Boy Who Harnessed The Wind',
+        image:'../images/movies_images/THE BOY WHO HARNESSED THE WIND.jpg',
     },
     {
-        name:'JOHN WICK: CHAPTER 3 - PARABELLUM',
-        image:'https://resizing.flixster.com/J31B7Egii4yC79oLCG8L5KuJSq4=/fit-in/200x296.2962962962963/v1.bTsxMzAyNzExOTtqOzE4MTA1OzEyMDA7MzYwMDs1NTUw'
+        name:'John Wick: Chapter 3 - Parabellum',
+        image:'../images/movies_images/JOHN WICK CHAPTER 3 - PARABELLUM.jpg'
     },
     {
-        name:'HOW TO TRAIN YOUR DRAGON: THE HIDDEN WORLD',
-        image:'https://resizing.flixster.com/mbCiUcQKnLHGqsDM1tBZM-ZV348=/fit-in/200x296.2962962962963/v1.bTsxMjc1NjU5NztqOzE4MTAyOzEyMDA7NDgwOzc2MA'
+        name:'How To Train Your Dragon: The Hidden World',
+        image:'../images/movies_images/How_To_Train_Your_Dragon_-_The_Hidden_World.jpg'
     },
     {
-        name:'THE MUSTANG',
-        image:'https://resizing.flixster.com/KENiK9qnDTdOEZcEgKQONHyXYQk=/fit-in/200x296.2962962962963/v1.bTsxMjk0MjE1NDtqOzE4MTA0OzEyMDA7NDA1MDs2MDAw',
+        name:'The Mustang',
+        image:'../images/movies_images/The_Mustang.jpg',
     },
     {
-        name:'AVENGERS: ENDGAME',
-        image:'https://resizing.flixster.com/IN7vCTU0NJYNOvUUEpFDFDiKvYc=/fit-in/200x296.2962962962963/v1.bTsxMzAxOTkzMjtqOzE4MTA1OzEyMDA7MTY4ODsyNTAw'
+        name:'Avengers: Endgame',
+        image:'../images/movies_images/Avengers_Endgame.jpg'
     },
     {
-        name:'APOLLO 11',
-        image:'https://resizing.flixster.com/FRLoBAy-TwU8oRFHWEfBG27UGVI=/fit-in/200x296.2962962962963/v1.bTsxMjk3ODk2MjtqOzE4MTA1OzEyMDA7ODEwOzEyMDA'
+        name:'Apollo 11',
+        image:'../images/movies_images/Apollo11.jpg'
     },
     {
-        name:'SMALLFOOT',
-        image:'https://resizing.flixster.com/0ABAUDjptWUA82nzrcLfEFxvDBw=/fit-in/200x296.2962962962963/v1.bTsxMjg1NTc5MDtqOzE4MTAzOzEyMDA7Mjc2NDs0MDk2',
+        name:'Small Foot',
+        image:'../images/movies_images/small_foot.jpg',
     },
     {
-        name:'22 JULY',
-        image:'https://resizing.flixster.com/63hmnC68v3YT-2xnbQTaUF6RU7g=/fit-in/200x296.2962962962963/v1.bTsxMjg1NjYyOTtqOzE4MTAzOzEyMDA7MTUwMDsyMjIy'
+        name:'22 July',
+        image:'../images/movies_images/22_july.jpg'
     },
     {
-        name:'ALPHA',
-        image:'https://resizing.flixster.com/j1Rz47DiE7b00B1FlfUher2HejA=/fit-in/200x296.2962962962963/v1.bTsxMjc3NTc0MjtqOzE4MTAyOzEyMDA7NjA3Mjs5MDAw'
+        name:'Alpha',
+        image:'../images/movies_images/Alpha.jpg'
     },
     {
-        name:'OVERLORD',
-        image:'https://resizing.flixster.com/hmVgyBHvER2BMArG43UP2F2Hc8M=/fit-in/200x296.2962962962963/v1.bTsxMjg1MDA0NDtqOzE4MTAzOzEyMDA7MTMxMTsyMDQ4'
+        name:'Overload',
+        image:'../images/movies_images/Overload.jpg'
     },
     {
-        name:'CREED II',
-        image:'https://resizing.flixster.com/TWCroHygAtCfoBUHxccodTcjzQI=/fit-in/200x296.2962962962963/v1.bTsxMjg2MTU0OTtqOzE4MTAzOzEyMDA7NjU4MTs5NzUw'
+        name:'Creed II',
+        image:'../images/movies_images/Creed_II.jpg'
     },
     {
-        name:'THE THIRD MURDER (SANDOME NO SATSUJIN)',
-        image:'https://resizing.flixster.com/avfIu16XZ4mT9KUu8ZpcbdKmlW8=/fit-in/200x296.2962962962963/v1.bTsxMjc1NjYwNTtqOzE4MTAyOzEyMDA7MTA4MDsxNjAw'
+        name:'The Third Murder (Sandome No Satsujin)',
+        image:'../images/movies_images/The_Third_Murder_(Sandome_No_Satsujin).jpg'
     },
     {
-        name:'AVENGERS: INFINITY WAR',
-        image:'https://resizing.flixster.com/Tr0D14OrBFf6NVowaFOcO8snbv4=/fit-in/200x296.2962962962963/v1.bTsxMjcwMDQ5MztqOzE4MTAxOzEyMDA7MTY4ODsyNTAw'
+        name:'Avengers: Infinity War',
+        image:'../images/movies_images/Avengers_-_Infinity_War.jpg'
     },
     {
-        name:'MOUNTAIN',
-        image:'https://resizing.flixster.com/iTxPXlayt0R9s1_IxoW0_PqFe2c=/fit-in/200x296.2962962962963/v1.bTsxMjcwMTI5MTtqOzE4MTAyOzEyMDA7MTAwMDsxNDgy'
+        name:'Mountain',
+        image:'../images/movies_images/Mountain.jpg'
     },
     {
-        name:'THE PRICE OF EVERYTHING',
-        image:'https://resizing.flixster.com/s6RQKTh5LXlkMBSfCAQpJUji7Fw=/206x305/v1.bTsxMjY0OTIwMztqOzE4MTAxOzEyMDA7NjQ4Ozk2MA'
+        name:'The Price Of Everything',
+        image:'../images/movies_images/The_Price_Of_Everything.jpg'
     },
     {
-        name:'MIRAI',
-        image:'https://resizing.flixster.com/W0TdGEyJxk4uxRpEiwqRpW8p3AQ=/fit-in/200x296.2962962962963/v1.bTsxMzAzNjUzNjtqOzE4MTA1OzEyMDA7MTAwODsxNTEy'
+        name:'Mirai',
+        image:'../images/movies_images/Mirai.jpg'
     },
     {
-        name:'INCREDIBLES 2',
-        image:'https://resizing.flixster.com/kvWOtskggoyL7wHRPF3s27nfv3s=/fit-in/200x296.2962962962963/v1.bTsxMjcxMzEzMTtqOzE4MTAyOzEyMDA7MTA4NjsxNjA5'
+        name:'Incredibles 2',
+        image:'../images/movies_images/Incredibles_2.jpg'
     },
     {
         name:'Gladiator',
-        image:'https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg'
+        image:'../images/movies_images/Gladiator.jpg'
     },
     {
         name:'Godzilla: King of the Monsters',
-        image:'https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg'
+        image:'../images/movies_images/Godzilla_-_King_Of_The_Monsters.jpg'
     }
 ];
 
