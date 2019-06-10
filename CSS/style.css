@@ -1,0 +1,106 @@
+#main
+{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card 
+{
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    flex: 0 1 calc(25% - 1em);
+    margin-bottom: 2%
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container 
+{
+    margin: .5% 4%;
+    padding: 1% 1%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 25%;
+    min-height: 25%;
+}
+
+.container img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.resize {
+    width: auto;
+    height: auto;
+}
+
+#Auth {
+    float: right;
+}
+
+.button {
+    color: #5151ff;
+    background-color: #fffffa;
+    height: 50px;
+    border-color: #5151fa;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    -webkit-transition-duration: 0.4s; /*Safari*/
+    transition-duration: 0.4s;
+    margin: 5px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #5151ff; /* Green */
+    
+}
+
+.block {
+    width: 100%;
+}
+
+.center 
+{
+    text-align:center!important;
+}
+
+.border
+{
+    border: 2px solid #fffffa;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin-top: 1%;
+    margin-bottom: 1%; 
+}
+
+.rounded
+{
+    border-radius: 10px; 
+}
+
+.image
+{
+    max-width:100%;
+    max-height: 100%;
+    min-width: 25%;
+    min-height: 25%;
+    width: 100%;
+    size: 100% 100%;
+}
+
+.email
+{
+    width: 250px;
+    height: 46px;
+    border-color: #5151ff;
+    border: solid;
+    color: #5151ff;
+    padding: 2px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
