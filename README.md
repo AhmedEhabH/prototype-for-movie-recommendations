@@ -1,4 +1,4 @@
-# prototype-for-movie-recommendations
+# Prototype for movie recommendations website
 
 Simple UI
 
