@@ -100,7 +100,7 @@ function loadData ()
         h4.textContent = movie.name;
         img.src = movie.image;
         
-        img.setAttribute('class', 'image');
+        img.setAttribute('class', 'image border');
         
         var card = document.createElement('div');
         var cardBody = document.createElement('div');
