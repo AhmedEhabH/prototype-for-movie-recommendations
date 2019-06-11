@@ -5,51 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Movie Recommendations</title>
-    <!-- <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./CSS/semantic.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="./JS/semantic.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./CSS/Utilities/button.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <script src="./JS/jquery-3.3.1.slim.min.js"></script>
     <script src="./JS/reload.js"></script>
 </head>
 <body onload="loadData()">
-    <div>
-        <div class="container border rounded">
-            <div>
-                <a href="#"><img src="./images/ThinkBigLogo.png" alt="Logo"></a>
-                <div id='Auth'>
-                    <form>
-                        <input class="email rounded" type="email" placeholder="enter your email" aria-label="email" required>
-                        <button class='button' type="submit" >Send Auth Token</button>
-                    </form>
-                    <form>
-                        <input class="email rounded" type="email" placeholder="enter your verification token" aria-label="email" required>
-                        <button class='button' type="submit" style="width: 118px"> Test Auth Token </button>
-                    </form>
+    <div class="">
+        <div class="container border rounded" id='header'>
+            <div id='logo-container'>
+                <a><img src="/images/ThinkBigLogo.png" alt="TinkBigLogo"></a>
+            </div>
+            <div class="container" >
+                <div id='nav-ul-container'>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#recent-review">Recent Review</a></li>
+                        <li><a href="#help-center">Help Center</a></li>
+                        <li><a href="#join-us">Join Us</a></li>
+                        <li><a href="#social-media">Social Media</a></li>
+                        <li>
+                            <form class="form">
+                                <input type="text" placeholder="Enter email" required>
+                                <button type="submit" class="btn btn-outline-primary">Subscribe</button>
+                            </form>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <form>
-                <button class="button block" type="submit" >Subscribe</button>
-            </form>
         </div>
     </div>
     <div>
-        <div class="container border rounded" id="main"></div>
+        <div>
+            <div class="container border rounded" id="main"></div>
+        </div>
     </div>
     <footer>
-        <div class="container border rounded">
-            <div class="footer">
-                <div class="about-us">
+        <div id='footer-container' class="container border rounded">
+            <div id='main-container' class="footer">
+                <div id='about-us' class="about-us">
                     <div class="container">
                         <h3>About us</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia tempore vitae mollitia nesciunt saepe cupiditate</p>
                     </div>
                 </div>
-                <div class="recent-review">
+                <div id='recent-review' class="recent-review">
                     <div class="container">
                         <h3>Recent Review</h3>
                         <ul>
@@ -59,7 +60,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="help-center">
+                <div id='help-center' class="help-center">
                     <div class="container">
                         <h3>Help Center</h3>
                         <ul>
@@ -70,7 +71,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="join-us">
+                <div id='join-us' class="join-us">
                     <div class="container">
                         <h3>Join Us</h3>
                         <ul>
@@ -81,7 +82,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="social-media">
+                <div id='social-media' class="social-media">
                     <div class='container'>
                         <h3>Social Media</h3>
                         <ul>
@@ -92,14 +93,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="newsletter">
-                    <div class="container">
+                <!-- <div id='newsletter' class="newsletter">
+                    <div class="container center">
                         <h3>Newsletter</h3>
                         <form class="subscribe-form">
                             <input type="text" placeholder="Enter email Address">
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
